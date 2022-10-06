@@ -1,0 +1,5 @@
+.inline{
+  float:none; /* disable the float */
+  display: inline-block; /* make blocks inline-block */
+  margin: 10px;
+}

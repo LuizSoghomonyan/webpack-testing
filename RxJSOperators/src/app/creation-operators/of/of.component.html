@@ -1,0 +1,3 @@
+<div *ngFor="let elem of (obs$ | async)">
+  <app-card [title]="elem.toString()" routerlink="/"></app-card>
+</div>

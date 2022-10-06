@@ -1,0 +1,7 @@
+<span *ngFor="let user of  (obs$ | async); let i = index">
+  <app-card
+    [title]="user['login']"
+    [image]="user['avatar_url']"
+    [_link]="user['html_url']"
+  ></app-card>
+</span>
